@@ -1,5 +1,5 @@
-import chatModel from './chat.model';
-import messageModel from './message.model';
-import userModel from './user.model';
+import ChatModel from './chat.model';
+import MessageModel from './message.model';
+import UserModel from './user.model';
 
-export { userModel, chatModel, messageModel };
+export { UserModel, ChatModel, MessageModel };

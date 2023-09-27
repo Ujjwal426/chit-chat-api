@@ -1,0 +1,80 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/.c0b6e5a36bca0284fcf3670a90fe7a8fbda36c4e-audit.json",
+    "files": [
+        {
+            "date": 1693707553679,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-03.log",
+            "hash": "d6d1e92b45b88703837ee5a769b66159be35eb7bf397877ff150634bcc6374fb"
+        },
+        {
+            "date": 1693897914747,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-05.log",
+            "hash": "fe5e6737aacf5254d85a436695c8477c4fc20b015fce364f6c33977579e46047"
+        },
+        {
+            "date": 1693972712465,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-06.log",
+            "hash": "355046e8722eabf387c78350551949830e6ea80dc089a50f1d9b70d1706799fb"
+        },
+        {
+            "date": 1694053878655,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-07.log",
+            "hash": "ef1b6c3cf6b8a3ff5c01ecead439c4960654b3a62a4504943da9a063608ee1bb"
+        },
+        {
+            "date": 1694671271403,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-14.log",
+            "hash": "e5b9cd95e2ced27a051a63ede5558e1e620d22770ab914ad4f9b08c5b6cdf27f"
+        },
+        {
+            "date": 1694772114750,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-15.log",
+            "hash": "acc7a372026651c90e4fb85eb3960c77a6a5d320e99f7d827865481ae6d5aae0"
+        },
+        {
+            "date": 1694933902285,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-17.log",
+            "hash": "ba19e70a2c946d33c84999c7a2301c2579662d8025866bb9d461e7c099753993"
+        },
+        {
+            "date": 1695189550992,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-20.log",
+            "hash": "8b08a899f999e4ce9c55e991dfa1d91da4fcfdb3e8640356924aa7a86b6566f6"
+        },
+        {
+            "date": 1695366917124,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-22.log",
+            "hash": "ad3502d66650f33b947b3d9234342fe94946abfb9c9f6bb4ae7f83d6105ba860"
+        },
+        {
+            "date": 1695450986137,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-23.log",
+            "hash": "4809101c76a7a4616b4993ade419cacc06b293e86b6eb42d1c6672a118b3e1bd"
+        },
+        {
+            "date": 1695513665454,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-24.log",
+            "hash": "d603a3a0879eeea8066d05b36fea87641b25bc6b3efe71a3eb5294af0875bb46"
+        },
+        {
+            "date": 1695618642296,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-25.log",
+            "hash": "42261f17e6be51682624db5c7b0b34b855e33c2933e01f632e2d73efebb020bc"
+        },
+        {
+            "date": 1695715372186,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-26.log",
+            "hash": "9ae5706849d9e7da9aa379206c3cc15b8bb96a0ded58261d27ae4c3acb60cd02"
+        },
+        {
+            "date": 1695790285227,
+            "name": "/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/logs/error/2023-09-27.log",
+            "hash": "236b92aa4e4db607808bc88f41f6ab54b450c4ca462144620b105b4af53d36a2"
+        }
+    ],
+    "hashType": "sha256"
+}

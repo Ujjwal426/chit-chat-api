@@ -1,0 +1,1 @@
+2023-09-25 10:40:42 error: [GET] /api/users/search/R >> StatusCode:: 401, Message:: Wrong authentication token

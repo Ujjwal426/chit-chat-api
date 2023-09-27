@@ -3,7 +3,7 @@ import User from './user.interface';
 interface Message {
   sender: User;
   content: string;
-  receiver: User;
+  chat: User;
 }
 
 export default Message;

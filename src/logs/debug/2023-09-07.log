@@ -1,0 +1,12 @@
+2023-09-07 08:01:18 error: [GET] /api/users/search/Ujjwal >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-07 08:01:37 error: [POST] /api/login >> StatusCode:: 409, Message:: This email admin@gmail.com was not found
+2023-09-07 09:04:27 error: [GET] /api/access-chat >> StatusCode:: 404, Message: Route not found
+2023-09-07 09:05:05 error: [POST] /api/access-chat >> StatusCode:: 404, Message: Route not found
+2023-09-07 09:07:12 error: [POST] /api/access-chat >> StatusCode:: 404, Message: Route not found
+2023-09-07 09:11:43 error: [POST] /api/access-chat >> StatusCode:: 404, Message: Route not found
+2023-09-07 09:15:10 error: [POST] /api/access-chat >> StatusCode:: 404, Message: Route not found
+2023-09-07 09:15:30 error: [GET] /main.f5a4cb4dd36c637bf05b.hot-update.json >> StatusCode:: 404, Message: Route not found
+2023-09-07 09:15:37 error: [GET] /api/users/search/U >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-07 09:15:45 error: [GET] /api/users/search/U >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-07 09:16:37 error: [POST] /api/access-chat >> StatusCode:: 404, Message: Route not found
+2023-09-07 10:14:49 error: [GET] /api/users/search/U >> StatusCode:: 401, Message:: Wrong authentication token

@@ -1,0 +1,14 @@
+2023-07-23 12:28:27 error: [POST] /users >> StatusCode:: 500, Message:: Illegal arguments: undefined, number
+2023-07-23 12:28:38 error: [POST] /users >> StatusCode:: 500, Message:: Illegal arguments: undefined, number
+2023-07-23 12:29:27 error: [POST] /users >> StatusCode:: 500, Message:: User validation failed: picture: Path `picture` is required.
+2023-07-23 12:32:34 error: [POST] /users >> StatusCode:: 500, Message:: User validation failed: picture: Path `picture` is required.
+2023-07-23 12:34:08 error: [POST] /users >> StatusCode:: 500, Message:: User validation failed: picture: Path `picture` is required.
+2023-07-23 12:34:10 error: [POST] /users >> StatusCode:: 500, Message:: User validation failed: picture: Path `picture` is required.
+2023-07-23 12:35:34 error: [POST] /users >> StatusCode:: 400, Message:: name must be longer than or equal to 2 characters,name should not be empty,name must be a string
+2023-07-23 12:35:48 error: [POST] /users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-07-23 13:14:29 error: [GET] /users/search/ujjwal >> StatusCode:: 409, Message:: User doesn't exist
+2023-07-23 13:16:04 error: [GET] /users/search/ujjwal >> StatusCode:: 409, Message:: User doesn't exist
+2023-07-23 13:17:06 error: [GET] /users/search/ujjwal >> StatusCode:: 409, Message:: User doesn't exist
+2023-07-23 13:19:27 error: [GET] /users/search/ujjwal >> StatusCode:: 404, Message: Route not found
+2023-07-23 13:19:28 error: [GET] /users/search/ujjwal >> StatusCode:: 404, Message: Route not found
+2023-07-23 13:19:29 error: [GET] /users/search/ujjwal >> StatusCode:: 404, Message: Route not found

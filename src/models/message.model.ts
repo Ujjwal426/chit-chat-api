@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose';
-import { Message } from '../interfaces';
+import { Message } from '@interfaces';
 
 const messageSchema = new Schema(
   {
@@ -12,9 +12,9 @@ const messageSchema = new Schema(
       type: String,
       require: true,
     },
-    receiver: {
+    chat: {
       type: Schema.Types.ObjectId,
-      ref: 'User',
+      ref: 'Chat',
       required: true,
     },
   },

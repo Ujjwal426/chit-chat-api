@@ -1,0 +1,1293 @@
+2023-09-26 13:34:42 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 13:34:42 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 14:41:05 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 14:41:05 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 14:43:36 error: [GET] /api/fetch-message:chatId >> StatusCode:: 404, Message: Route not found
+2023-09-26 14:44:38 error: [GET] /api/fetch-message:chatId >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':chatId' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:44:59 error: [GET] /api/fetch-message: >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:45:06 error: [GET] /api/fetch-message: >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 14:45:15 error: [GET] /api/fetch-message: >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:45:22 error: [GET] /api/fetch-message:650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:45:27 error: [GET] /api/fetch-message:650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:45:34 error: [GET] /api/fetch-message:650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:46:17 error: [GET] /api/fetch-message/:650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:46:22 error: [GET] /api/fetch-message/:650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:46:32 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'populate')
+2023-09-26 14:46:37 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'populate')
+2023-09-26 14:47:18 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'populate')
+2023-09-26 14:48:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/message.controller.ts[0m:[93m21[0m:[93m35[0m - [91merror[0m[90m TS2339: [0mProperty 'to' does not exist on type 'string'.
+
+[7m21[0m       const userId = req.user._id.to;
+[7m  [0m [91m                                  ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/message.controller.ts[0m:[93m21[0m:[93m35[0m - [91merror[0m[90m TS2339: [0mProperty 'to' does not exist on type 'string'.
+
+[7m21[0m       const userId = req.user._id.to;
+[7m  [0m [91m                                  ~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:49:01 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'populate')
+2023-09-26 14:49:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m67[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m67[0m     return message;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m67[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m67[0m     return message;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:49:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m66[0m     const message = await MessageModel.findById({ _id: chatId }))
+[7m  [0m [91m                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m66[0m     const message = await MessageModel.findById({ _id: chatId }))
+[7m  [0m [91m                                                                ~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:49:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m66[0m - [91merror[0m[90m TS2339: [0mProperty 'po' does not exist on type 'Query<Document<unknown, {}, Message> & Message & { _id: ObjectId; }, Document<unknown, {}, Message> & Message & { _id: ObjectId; }, {}, Message, "findOne">'.
+
+[7m66[0m     const message = await MessageModel.findById({ _id: chatId }).po
+[7m  [0m [91m                                                                 ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m66[0m - [91merror[0m[90m TS2339: [0mProperty 'po' does not exist on type 'Query<Document<unknown, {}, Message> & Message & { _id: ObjectId; }, Document<unknown, {}, Message> & Message & { _id: ObjectId; }, {}, Message, "findOne">'.
+
+[7m66[0m     const message = await MessageModel.findById({ _id: chatId }).po
+[7m  [0m [91m                                                                 ~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:49:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m67[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType '{ <Paths = {}>(path: string | string[], select?: any, model?: string | Model<any, {}, {}, {}, any, any>, match?: any): Query<keyof Paths extends never ? Document<unknown, {}, Message> & Message & { ...; } : Omit<...> & Paths, Document<...> & ... 1 more ... & { ...; }, {}, keyof Paths extends never ? Message : Omit<....' is not assignable to type 'Message'.
+
+[7m67[0m     return message;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m67[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType '{ <Paths = {}>(path: string | string[], select?: any, model?: string | Model<any, {}, {}, {}, any, any>, match?: any): Query<keyof Paths extends never ? Document<unknown, {}, Message> & Message & { ...; } : Omit<...> & Paths, Document<...> & ... 1 more ... & { ...; }, {}, keyof Paths extends never ? Message : Omit<....' is not assignable to type 'Message'.
+
+[7m67[0m     return message;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:49:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m107[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m66[0m     const message = await MessageModel.findById({ _id: chatId }).populate('sender', 'name profilePicture')).populate('chat');
+[7m  [0m [91m                                                                                                          ~[0m
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m108[0m - [91merror[0m[90m TS1134: [0mVariable declaration expected.
+
+[7m66[0m     const message = await MessageModel.findById({ _id: chatId }).populate('sender', 'name profilePicture')).populate('chat');
+[7m  [0m [91m                                                                                                           ~[0m
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m117[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m66[0m     const message = await MessageModel.findById({ _id: chatId }).populate('sender', 'name profilePicture')).populate('chat');
+[7m  [0m [91m                                                                                                                    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m107[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m66[0m     const message = await MessageModel.findById({ _id: chatId }).populate('sender', 'name profilePicture')).populate('chat');
+[7m  [0m [91m                                                                                                          ~[0m
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m108[0m - [91merror[0m[90m TS1134: [0mVariable declaration expected.
+
+[7m66[0m     const message = await MessageModel.findById({ _id: chatId }).populate('sender', 'name profilePicture')).populate('chat');
+[7m  [0m [91m                                                                                                           ~[0m
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m117[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m66[0m     const message = await MessageModel.findById({ _id: chatId }).populate('sender', 'name profilePicture')).populate('chat');
+[7m  [0m [91m                                                                                                                    ~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:50:58 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ chat: '650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Message"
+2023-09-26 14:51:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m67[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'Omit<Omit<Document<unknown, {}, Message> & Message & { _id: ObjectId; }, never>, never>[]' is missing the following properties from type 'Message': sender, content, chat
+
+[7m67[0m     return message;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m67[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'Omit<Omit<Document<unknown, {}, Message> & Message & { _id: ObjectId; }, never>, never>[]' is missing the following properties from type 'Message': sender, content, chat
+
+[7m67[0m     return message;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:51:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m67[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'Message[]' is missing the following properties from type 'Message': sender, content, chat
+
+[7m67[0m     return message;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m67[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'Message[]' is missing the following properties from type 'Message': sender, content, chat
+
+[7m67[0m     return message;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:51:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/message.controller.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS2739: [0mType 'Message[]' is missing the following properties from type 'Message': sender, content, chat
+
+[7m23[0m       const message: Message = await this.messageService.fetchAllMessageForAChat(userId, chatId);
+[7m  [0m [91m            ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/message.controller.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS2739: [0mType 'Message[]' is missing the following properties from type 'Message': sender, content, chat
+
+[7m23[0m       const message: Message = await this.messageService.fetchAllMessageForAChat(userId, chatId);
+[7m  [0m [91m            ~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:58:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m133[0m - [91merror[0m[90m TS2339: [0mProperty 'so' does not exist on type 'Query<Omit<Omit<Document<unknown, {}, Message> & Message & { _id: ObjectId; }, never>, never>[], Document<unknown, {}, Message> & Message & { ...; }, {}, Message, "find">'.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').so;
+[7m  [0m [91m                                                                                                                                    ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m133[0m - [91merror[0m[90m TS2339: [0mProperty 'so' does not exist on type 'Query<Omit<Omit<Document<unknown, {}, Message> & Message & { _id: ObjectId; }, never>, never>[], Document<unknown, {}, Message> & Message & { ...; }, {}, Message, "find">'.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').so;
+[7m  [0m [91m                                                                                                                                    ~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:58:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType '(arg?: string | { [key: string]: SortOrder | { $meta: any; }; } | [string, SortOrder][]) => Query<Omit<Omit<Document<unknown, {}, Message> & Message & { ...; }, never>, never>[], Document<...> & ... 1 more ... & { ...; }, {}, Message, "find">' is not assignable to type 'Message[]'.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').sort;
+[7m  [0m [91m          ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType '(arg?: string | { [key: string]: SortOrder | { $meta: any; }; } | [string, SortOrder][]) => Query<Omit<Omit<Document<unknown, {}, Message> & Message & { ...; }, never>, never>[], Document<...> & ... 1 more ... & { ...; }, {}, Message, "find">' is not assignable to type 'Message[]'.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').sort;
+[7m  [0m [91m          ~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:58:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m152[0m - [91merror[0m[90m TS2554: [0mExpected 0-1 arguments, but got 2.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').sort('createdAt' : -21);
+[7m  [0m [91m                                                                                                                                                       ~~~[0m
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m150[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').sort('createdAt' : -21);
+[7m  [0m [91m                                                                                                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m152[0m - [91merror[0m[90m TS2554: [0mExpected 0-1 arguments, but got 2.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').sort('createdAt' : -21);
+[7m  [0m [91m                                                                                                                                                       ~~~[0m
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m150[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').sort('createdAt' : -21);
+[7m  [0m [91m                                                                                                                                                     ~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 14:58:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m152[0m - [91merror[0m[90m TS2554: [0mExpected 0-1 arguments, but got 2.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').sort('createdAt' : -1);
+[7m  [0m [91m                                                                                                                                                       ~~[0m
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m150[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').sort('createdAt' : -1);
+[7m  [0m [91m                                                                                                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m152[0m - [91merror[0m[90m TS2554: [0mExpected 0-1 arguments, but got 2.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').sort('createdAt' : -1);
+[7m  [0m [91m                                                                                                                                                       ~~[0m
+[96msrc/services/message.service.ts[0m:[93m66[0m:[93m150[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m66[0m     const message: Message[] = await MessageModel.find({ chat: chatId }).populate('sender', 'name profilePicture').populate('chat').sort('createdAt' : -1);
+[7m  [0m [91m                                                                                                                                                     ~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 15:52:43 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:02 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:05 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:14 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:17 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:24 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:39 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:40 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:42 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:44 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:50 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:51 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:53 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:55 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:58 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:01 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:13 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:17 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:21 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:24 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:30 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:43 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:52 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:55 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:57 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:00 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:09 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:13 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:19 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:27 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:35 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:38 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:39 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:42 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:46 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:48 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:53 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:57:00 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:58:05 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:58:07 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:58:08 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:58:46 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:58:50 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:59:16 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:59:28 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:59:48 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:59:52 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:00:00 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:00:20 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:00:26 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:00:27 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:00:36 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:01:38 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:16:05 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:58:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/chat.service.ts[0m:[93m52[0m:[93m8[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m52[0m     if()
+[7m  [0m [91m       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/chat.service.ts[0m:[93m52[0m:[93m8[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m52[0m     if()
+[7m  [0m [91m       ~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 16:58:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/chat.service.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS1156: [0m'const' declarations can only be declared inside a block.
+
+[7m54[0m     const isAllUsersExist = await UserModel.find({ _id: { $in: userIdArray } });
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/chat.service.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS1156: [0m'const' declarations can only be declared inside a block.
+
+[7m54[0m     const isAllUsersExist = await UserModel.find({ _id: { $in: userIdArray } });
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 16:58:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/chat.service.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS1156: [0m'const' declarations can only be declared inside a block.
+
+[7m54[0m     const isAllUsersExist = await UserModel.find({ _id: { $in: userIdArray } });
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/chat.service.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS1156: [0m'const' declarations can only be declared inside a block.
+
+[7m54[0m     const isAllUsersExist = await UserModel.find({ _id: { $in: userIdArray } });
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 17:47:31 error: [POST] /api/group-chat >> StatusCode:: 400, Message:: groupName must be shorter than or equal to 10 characters
+2023-09-26 17:53:15 error: [POST] /api/group-chat >> StatusCode:: 400, Message:: You can't create a group 2 users
+2023-09-26 17:53:23 error: [POST] /api/group-chat >> StatusCode:: 400, Message:: You can't create a group 2 users
+2023-09-26 20:39:43 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 20:39:43 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 20:40:10 error: [POST] /api/group-chat >> StatusCode:: 400, Message:: You can't create a group 2 users
+2023-09-26 20:45:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m64[0m:[93m92[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m64[0m     const usersData = await UserModel.find({ name: { $regex: name, $options: 'i' }, _id :  });
+[7m  [0m [91m                                                                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m64[0m:[93m92[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m64[0m     const usersData = await UserModel.find({ name: { $regex: name, $options: 'i' }, _id :  });
+[7m  [0m [91m                                                                                           ~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 20:46:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m73[0m:[93m73[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m73[0m       const usersData: User[] = await this.userService.searchUser(name, req.user._id);
+[7m  [0m [91m                                                                        ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m73[0m:[93m73[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m73[0m       const usersData: User[] = await this.userService.searchUser(name, req.user._id);
+[7m  [0m [91m                                                                        ~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 20:46:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m73[0m:[93m86[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m73[0m       const usersData: User[] = await this.userService.searchUser(name, req.user._id.);
+[7m  [0m [91m                                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m73[0m:[93m86[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m73[0m       const usersData: User[] = await this.userService.searchUser(name, req.user._id.);
+[7m  [0m [91m                                                                                     ~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 20:46:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m73[0m:[93m86[0m - [91merror[0m[90m TS2339: [0mProperty 'to' does not exist on type 'string'.
+
+[7m73[0m       const usersData: User[] = await this.userService.searchUser(name, req.user._id.to);
+[7m  [0m [91m                                                                                     ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m73[0m:[93m86[0m - [91merror[0m[90m TS2339: [0mProperty 'to' does not exist on type 'string'.
+
+[7m73[0m       const usersData: User[] = await this.userService.searchUser(name, req.user._id.to);
+[7m  [0m [91m                                                                                     ~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 20:47:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m64[0m:[93m100[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m64[0m     const usersData: User[] = await UserModel.find({ name: { $regex: name, $options: 'i' }, _id :  });
+[7m  [0m [91m                                                                                                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m64[0m:[93m100[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m64[0m     const usersData: User[] = await UserModel.find({ name: { $regex: name, $options: 'i' }, _id :  });
+[7m  [0m [91m                                                                                                   ~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 20:47:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m64[0m:[93m106[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m64[0m     const usersData: User[] = await UserModel.find({ name: { $regex: name, $options: 'i' }, _id: { $ne:  } });
+[7m  [0m [91m                                                                                                         ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m64[0m:[93m106[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m64[0m     const usersData: User[] = await UserModel.find({ name: { $regex: name, $options: 'i' }, _id: { $ne:  } });
+[7m  [0m [91m                                                                                                         ~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:11:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'public'.
+
+[7m11[0m   public sendMessage = async (content: string, userId: string, chatId: string): Promise<Message> => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m11[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m11[0m   public sendMessage = async (content: string, userId: string, chatId: string): Promise<Message> => {
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'public'.
+
+[7m11[0m   public sendMessage = async (content: string, userId: string, chatId: string): Promise<Message> => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m11[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m11[0m   public sendMessage = async (content: string, userId: string, chatId: string): Promise<Message> => {
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:11:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m9[0m:[93m16[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m9[0m   public App = new App()
+[7m [0m [91m               ~~~~~~~~~[0m
+
+  [96msrc/app.ts[0m:[93m15[0m:[93m15[0m
+    [7m15[0m   constructor(roures: Routes[]) {
+    [7m  [0m [96m              ~~~~~~~~~~~~~~~~[0m
+    An argument for 'roures' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m9[0m:[93m16[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m9[0m   public App = new App()
+[7m [0m [91m               ~~~~~~~~~[0m
+
+  [96msrc/app.ts[0m:[93m15[0m:[93m15[0m
+    [7m15[0m   constructor(roures: Routes[]) {
+    [7m  [0m [96m              ~~~~~~~~~~~~~~~~[0m
+    An argument for 'roures' was not provided.
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:11:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m9[0m:[93m16[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m9[0m   public app = new App()
+[7m [0m [91m               ~~~~~~~~~[0m
+
+  [96msrc/app.ts[0m:[93m15[0m:[93m15[0m
+    [7m15[0m   constructor(roures: Routes[]) {
+    [7m  [0m [96m              ~~~~~~~~~~~~~~~~[0m
+    An argument for 'roures' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m9[0m:[93m16[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m9[0m   public app = new App()
+[7m [0m [91m               ~~~~~~~~~[0m
+
+  [96msrc/app.ts[0m:[93m15[0m:[93m15[0m
+    [7m15[0m   constructor(roures: Routes[]) {
+    [7m  [0m [96m              ~~~~~~~~~~~~~~~~[0m
+    An argument for 'roures' was not provided.
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:16:40 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:17:49 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:17:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m7[0m:[93m7[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m7[0m class MessageService {
+[7m [0m [91m      ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m75[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MessageService'.
+
+[7m75[0m export default MessageService;
+[7m  [0m [91m               ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m7[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m7[0m class MessageService {
+[7m [0m [91m~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m7[0m:[93m7[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m7[0m class MessageService {
+[7m [0m [91m      ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m75[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MessageService'.
+
+[7m75[0m export default MessageService;
+[7m  [0m [91m               ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m7[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m7[0m class MessageService {
+[7m [0m [91m~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:17:58 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:19:37 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:19:52 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:20:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=' expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=' expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:20:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m5[0m:[93m8[0m - [91merror[0m[90m TS1192: [0mModule '"/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/services/index"' has no default export.
+
+[7m5[0m import io from '.'
+[7m [0m [91m       ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m5[0m:[93m8[0m - [91merror[0m[90m TS1192: [0mModule '"/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/services/index"' has no default export.
+
+[7m5[0m import io from '.'
+[7m [0m [91m       ~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:20:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=' expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=' expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:20:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m7[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m      ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m76[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MessageService'.
+
+[7m76[0m export default MessageService;
+[7m  [0m [91m               ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m7[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m      ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m76[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MessageService'.
+
+[7m76[0m export default MessageService;
+[7m  [0m [91m               ~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:20:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m7[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m      ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m76[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MessageService'.
+
+[7m76[0m export default MessageService;
+[7m  [0m [91m               ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m7[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m      ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m76[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MessageService'.
+
+[7m76[0m export default MessageService;
+[7m  [0m [91m               ~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:20:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m7[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m      ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m76[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MessageService'.
+
+[7m76[0m export default MessageService;
+[7m  [0m [91m               ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m7[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m      ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m76[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MessageService'.
+
+[7m76[0m export default MessageService;
+[7m  [0m [91m               ~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:20:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m7[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m      ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m76[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MessageService'.
+
+[7m76[0m export default MessageService;
+[7m  [0m [91m               ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m8[0m:[93m7[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m8[0m class MessageService {
+[7m [0m [91m      ~~~~~~~~~~~~~~[0m
+[96msrc/services/message.service.ts[0m:[93m76[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MessageService'.
+
+[7m76[0m export default MessageService;
+[7m  [0m [91m               ~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:20:59 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:21:10 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:21:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m TS2339: [0mProperty 'console' does not exist on type 'Server<DefaultEventsMap, DefaultEventsMap, DefaultEventsMap, any>'.
+
+[7m17[0m     console.log('isChatExist', isChatExist);
+[7m  [0m [91m    ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m TS2339: [0mProperty 'console' does not exist on type 'Server<DefaultEventsMap, DefaultEventsMap, DefaultEventsMap, any>'.
+
+[7m17[0m     console.log('isChatExist', isChatExist);
+[7m  [0m [91m    ~~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:21:57 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:28:03 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:28:06 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:28:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m30[0m:[93m8[0m - [91merror[0m[90m TS2339: [0mProperty 'o' does not exist on type 'Server<DefaultEventsMap, DefaultEventsMap, DefaultEventsMap, any>'.
+
+[7m30[0m     io.o
+[7m  [0m [91m       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m30[0m:[93m8[0m - [91merror[0m[90m TS2339: [0mProperty 'o' does not exist on type 'Server<DefaultEventsMap, DefaultEventsMap, DefaultEventsMap, any>'.
+
+[7m30[0m     io.o
+[7m  [0m [91m       ~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:28:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m30[0m:[93m8[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.
+
+[7m30[0m     io.on()
+[7m  [0m [91m       ~~~~[0m
+
+  [96mnode_modules/socket.io/dist/typed-events.d.ts[0m:[93m66[0m:[93m75[0m
+    [7m66[0m     on<Ev extends ReservedOrUserEventNames<ReservedEvents, ListenEvents>>(ev: Ev, listener: ReservedOrUserListener<ReservedEvents, ListenEvents, Ev>): this;
+    [7m  [0m [96m                                                                          ~~~~~~[0m
+    An argument for 'ev' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m30[0m:[93m8[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.
+
+[7m30[0m     io.on()
+[7m  [0m [91m       ~~~~[0m
+
+  [96mnode_modules/socket.io/dist/typed-events.d.ts[0m:[93m66[0m:[93m75[0m
+    [7m66[0m     on<Ev extends ReservedOrUserEventNames<ReservedEvents, ListenEvents>>(ev: Ev, listener: ReservedOrUserListener<ReservedEvents, ListenEvents, Ev>): this;
+    [7m  [0m [96m                                                                          ~~~~~~[0m
+    An argument for 'ev' was not provided.
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:28:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m30[0m:[93m8[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m30[0m     io.on("connection", )
+[7m  [0m [91m       ~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/socket.io/dist/typed-events.d.ts[0m:[93m66[0m:[93m83[0m
+    [7m66[0m     on<Ev extends ReservedOrUserEventNames<ReservedEvents, ListenEvents>>(ev: Ev, listener: ReservedOrUserListener<ReservedEvents, ListenEvents, Ev>): this;
+    [7m  [0m [96m                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'listener' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m30[0m:[93m8[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m30[0m     io.on("connection", )
+[7m  [0m [91m       ~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/socket.io/dist/typed-events.d.ts[0m:[93m66[0m:[93m83[0m
+    [7m66[0m     on<Ev extends ReservedOrUserEventNames<ReservedEvents, ListenEvents>>(ev: Ev, listener: ReservedOrUserListener<ReservedEvents, ListenEvents, Ev>): this;
+    [7m  [0m [96m                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'listener' was not provided.
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:28:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m30[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'socket'.
+
+[7m30[0m     io.on("connection", (socket))
+[7m  [0m [91m                         ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m30[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'socket'.
+
+[7m30[0m     io.on("connection", (socket))
+[7m  [0m [91m                         ~~~~~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:28:42 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:28:55 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:29:25 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:29:33 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:29:42 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:30:07 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:33:50 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:34:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@/server"' has no exported member 'io'.
+
+[7m5[0m import { io } from '@/server';
+[7m [0m [91m         ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/message.service.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@/server"' has no exported member 'io'.
+
+[7m5[0m import { io } from '@/server';
+[7m [0m [91m         ~~[0m
+
+    at createTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2023-09-26 22:34:13 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:10:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)
+2023-09-26 22:34:32 error: uncaughtException: listen EADDRINUSE: address already in use :::9090
+Error: listen EADDRINUSE: address already in use :::9090
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/src/server.ts:10:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/ujjwaltiwari/Documents/Personal/chit-chat-api/node_modules/ts-node/src/index.ts:1621:12)

@@ -1,0 +1,6 @@
+2023-09-14 11:42:52 error: [POST] /api/login >> StatusCode:: 409, Message:: This email ujjwal.tiwari@thriwe.com was not found
+2023-09-14 12:11:15 error: [POST] /api/fetch-chat >> StatusCode:: 400, Message:: Unexpected token n in JSON at position 0
+2023-09-14 12:44:42 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-14 12:44:42 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-14 17:23:02 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-14 17:23:02 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token

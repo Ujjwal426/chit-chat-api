@@ -1,0 +1,2 @@
+2023-09-20 13:25:38 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-20 13:25:38 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token

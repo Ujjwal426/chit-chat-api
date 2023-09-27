@@ -1,0 +1,15 @@
+2023-09-03 08:19:49 error: [POST] /api/user >> StatusCode:: 404, Message: Route not found
+2023-09-03 08:22:04 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:34:11 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:34:17 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:35:08 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:35:41 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:35:49 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:35:50 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:35:51 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:35:52 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:35:52 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:35:54 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:36:35 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:36:37 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists
+2023-09-03 08:43:43 error: [POST] /api/users >> StatusCode:: 409, Message:: This email tiwariujjwal09@gmail.com already exists

@@ -1,8 +1,9 @@
 interface User {
+  _id: string;
   name: string;
   email: string;
   password: string;
-  picture: String;
+  profilePicture: String;
 }
 
 export default User;

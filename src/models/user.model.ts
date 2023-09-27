@@ -1,5 +1,6 @@
+/* eslint-disable no-param-reassign */
 import { Schema, model } from 'mongoose';
-import { User } from '../interfaces';
+import { User } from '@interfaces';
 
 const userSchema = new Schema({
   name: {
@@ -14,9 +15,14 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
-  picture: {
+  profilePicture: {
     type: String,
-    required: true,
+  },
+});
+
+userSchema.set('toJSON', {
+  transform: (doc, ret) => {
+    delete ret.password;
   },
 });
 

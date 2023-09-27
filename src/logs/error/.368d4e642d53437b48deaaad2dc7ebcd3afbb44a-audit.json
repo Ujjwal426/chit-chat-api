@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/ujjwal/Documents/personal/chit-chat-api/src/logs/error/.368d4e642d53437b48deaaad2dc7ebcd3afbb44a-audit.json",
+    "files": [
+        {
+            "date": 1690094793219,
+            "name": "/Users/ujjwal/Documents/personal/chit-chat-api/src/logs/error/2023-07-23.log",
+            "hash": "5527b170284c86a97d7969e84a442a525e9ac7b1b8a8ee081157ba738e09fefc"
+        },
+        {
+            "date": 1690186175736,
+            "name": "/Users/ujjwal/Documents/personal/chit-chat-api/src/logs/error/2023-07-24.log",
+            "hash": "0bb7d4905b381373d5449c1482ca47486e81afae07bb250efb327085cd280dc8"
+        }
+    ],
+    "hashType": "sha256"
+}

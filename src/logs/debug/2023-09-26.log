@@ -1,0 +1,79 @@
+2023-09-26 13:34:42 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 13:34:42 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 14:41:05 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 14:41:05 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 14:43:36 error: [GET] /api/fetch-message:chatId >> StatusCode:: 404, Message: Route not found
+2023-09-26 14:44:38 error: [GET] /api/fetch-message:chatId >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':chatId' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:44:59 error: [GET] /api/fetch-message: >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:45:06 error: [GET] /api/fetch-message: >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 14:45:15 error: [GET] /api/fetch-message: >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:45:22 error: [GET] /api/fetch-message:650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:45:27 error: [GET] /api/fetch-message:650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:45:34 error: [GET] /api/fetch-message:650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:46:17 error: [GET] /api/fetch-message/:650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:46:22 error: [GET] /api/fetch-message/:650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: ':650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Chat"
+2023-09-26 14:46:32 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'populate')
+2023-09-26 14:46:37 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'populate')
+2023-09-26 14:47:18 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'populate')
+2023-09-26 14:49:01 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'populate')
+2023-09-26 14:50:58 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ chat: '650fb5155f30100ca6fd3c85' }" (type Object) at path "_id" for model "Message"
+2023-09-26 15:52:43 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:02 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:05 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:14 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:17 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:24 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:39 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:40 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:42 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:44 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:50 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:51 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:53 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:55 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:54:58 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:01 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:13 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:17 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:21 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:24 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:30 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:43 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:52 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:55 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:55:57 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:00 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:09 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:13 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:19 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:27 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:35 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:38 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:39 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:42 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:46 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:48 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:56:53 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:57:00 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:58:05 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:58:07 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:58:08 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:58:46 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:58:50 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:59:16 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:59:28 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:59:48 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 15:59:52 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:00:00 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:00:20 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:00:26 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:00:27 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:00:36 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:01:38 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 16:16:05 error: [GET] /api/fetch-message/650fb5155f30100ca6fd3c85 >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 17:47:31 error: [POST] /api/group-chat >> StatusCode:: 400, Message:: groupName must be shorter than or equal to 10 characters
+2023-09-26 17:53:15 error: [POST] /api/group-chat >> StatusCode:: 400, Message:: You can't create a group 2 users
+2023-09-26 17:53:23 error: [POST] /api/group-chat >> StatusCode:: 400, Message:: You can't create a group 2 users
+2023-09-26 20:39:43 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 20:39:43 error: [GET] /api/fetch-chat >> StatusCode:: 401, Message:: Wrong authentication token
+2023-09-26 20:40:10 error: [POST] /api/group-chat >> StatusCode:: 400, Message:: You can't create a group 2 users
