@@ -66,9 +66,7 @@ class App {
             return;
           }
           console.log('newMessageReceived', newMessageReceived);
-          socket.in(user).emit('message received', () => {
-            console.log('Send Message');
-          });
+          socket.in(user).emit('message received', newMessageReceived);
         });
       });
     });
