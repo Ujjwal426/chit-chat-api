@@ -45,13 +45,20 @@ class App {
 
       socket.on('setup', userData => {
         socket.join(userData._id);
-        console.log(userData._id);
-        socket.emit('Connected....');
+        socket.emit('connected');
       });
 
       socket.on('join chat', room => {
         socket.join(room);
         console.log('User joined room' + room);
+      });
+
+      socket.on('typing', room => {
+        socket.in(room).emit('typing');
+      });
+
+      socket.on('stop typing', room => {
+        socket.in(room).emit('stop typing');
       });
 
       socket.on('new message', newMessageReceived => {
